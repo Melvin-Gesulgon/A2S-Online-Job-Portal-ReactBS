@@ -1,11 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Banner from '../images/banner.svg';
 import '../css/home.css';
+import '../css/main.css';
 import { Link } from 'react-router-dom';
+import Categories from '../subcom/CATEGORY';
 
 const Home = () => {
     return ( 
-        <div className='container' style={{marginTop: "100px"}} id='slogan'>
+        <div>
+            <div className='container' style={{marginTop: "100px"}} id='slogan'>
             <div className='row'>
                 <div className="col-md-6">
                     <h5>Access</h5>
@@ -19,6 +22,9 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <Categories></Categories>
+        </div>
+        
      );
 }
  
