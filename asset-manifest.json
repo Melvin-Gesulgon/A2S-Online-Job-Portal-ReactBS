@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/A2S-Online-Job-Portal-ReactBS/static/css/main.2b0f4a6c.css",
-    "main.js": "/A2S-Online-Job-Portal-ReactBS/static/js/main.29fef3c8.js",
+    "main.css": "/A2S-Online-Job-Portal-ReactBS/static/css/main.fe9ab217.css",
+    "main.js": "/A2S-Online-Job-Portal-ReactBS/static/js/main.92b61633.js",
     "static/js/787.df9b2a7e.chunk.js": "/A2S-Online-Job-Portal-ReactBS/static/js/787.df9b2a7e.chunk.js",
+    "static/media/banner.svg": "/A2S-Online-Job-Portal-ReactBS/static/media/banner.5ad3d749efdcf72f2540d2d95c5f9419.svg",
+    "static/media/logo.png": "/A2S-Online-Job-Portal-ReactBS/static/media/logo.a18467389976f349643c.png",
     "index.html": "/A2S-Online-Job-Portal-ReactBS/index.html",
-    "main.2b0f4a6c.css.map": "/A2S-Online-Job-Portal-ReactBS/static/css/main.2b0f4a6c.css.map",
-    "main.29fef3c8.js.map": "/A2S-Online-Job-Portal-ReactBS/static/js/main.29fef3c8.js.map",
+    "main.fe9ab217.css.map": "/A2S-Online-Job-Portal-ReactBS/static/css/main.fe9ab217.css.map",
+    "main.92b61633.js.map": "/A2S-Online-Job-Portal-ReactBS/static/js/main.92b61633.js.map",
     "787.df9b2a7e.chunk.js.map": "/A2S-Online-Job-Portal-ReactBS/static/js/787.df9b2a7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b0f4a6c.css",
-    "static/js/main.29fef3c8.js"
+    "static/css/main.fe9ab217.css",
+    "static/js/main.92b61633.js"
   ]
 }
