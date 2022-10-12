@@ -92,6 +92,9 @@
     border: none;
     background-color: #003865;
 }
+#dropdownSearch1{
+    border: none;
+}
 
 #dropdownSearch:hover{
     background-color: #003865;

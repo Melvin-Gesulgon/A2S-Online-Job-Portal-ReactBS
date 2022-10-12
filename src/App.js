@@ -3,6 +3,7 @@ import '/node_modules/bootstrap/dist/css/bootstrap.css'
 // import Navbar from './components/navbar';
 import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import NavbarMain from './components/subcom/NAVBAR';
+import NavbarJobs from './components/pages/jobs/NAVBAR_jobs';
 import Home from './components/pages/home';
 import Search from './components/pages/search';
 import About from './components/pages/about';
@@ -16,7 +17,8 @@ function App() {
     <BrowserRouter>
     <div>
       <header>
-      <NavbarMain></NavbarMain>
+      {/* <NavbarJobs /> */}
+      <NavbarMain />
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/search' element={<Search />}></Route>
