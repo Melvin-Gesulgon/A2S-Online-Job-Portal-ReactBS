@@ -11,6 +11,7 @@ import Signup from './components/pages/signup';
 import Footer from './components/subcom/FOOTER';
 
 function App() {
+  
   return (
     <BrowserRouter>
     <div>

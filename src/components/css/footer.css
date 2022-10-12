@@ -1,5 +1,9 @@
 .background{
     background-color: #003865;
+	/* position:fixed;
+	left:0;
+	bottom:0;
+	right:0; */
 }
 .footer{
     margin-top: 100px;
