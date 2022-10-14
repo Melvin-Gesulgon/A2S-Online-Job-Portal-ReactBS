@@ -5,17 +5,17 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='background'>
-        <div class="footer container">
-            <div class="footer-row">
-                <div class="footer-items">
+        <div className="footer container">
+            <div className="footer-row">
+                <div className="footer-items">
                     <ul>
                         <h4>Find Talent</h4>
-                        <li><Link to = '/'>How to Hire</Link></li>
-                        <li><Link to = '/'>Limitation</Link></li>
+                        <li><Link to = '/search'>How to Hire</Link></li>
+                        <li><Link to = '/search'>Limitation</Link></li>
                         <li><Link to = '/'>Report Talent</Link></li>
                     </ul>
                 </div>
-                <div class="footer-items"> 
+                <div className="footer-items"> 
                     <ul>
                         <h4>Find Work</h4>
                         <li><Link to = '/'>How to find work</Link></li>
@@ -23,7 +23,7 @@ const Footer = () => {
                         <li><Link to = '/'>Report Client</Link></li>
                     </ul>
                 </div>
-                <div class="footer-items">
+                <div className="footer-items">
                     <ul>
                         <h4>Resources</h4>
                         <li><Link to = '/'>Help and Support</Link></li>
@@ -32,7 +32,7 @@ const Footer = () => {
                         <li><Link to = '/'>Community</Link></li>
                     </ul>
                 </div>
-                <div class="footer-items">
+                <div className="footer-items">
                     <ul>
                         <li><h4>Company</h4></li>
                         <li><Link to = '/'>About Us</Link></li>
@@ -42,7 +42,7 @@ const Footer = () => {
                     </ul> 
                 </div>
             </div>
-            <div class="social-links">
+            <div className="social-links">
                 <h4>&nbsp;&nbsp;Social Handles: </h4>
             </div>
         </div>

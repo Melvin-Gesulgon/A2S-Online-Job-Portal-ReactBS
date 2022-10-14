@@ -23,6 +23,7 @@ const Home = () => {
             </div>
         </div>
         <Categories></Categories>
+
         </div>
         
      );

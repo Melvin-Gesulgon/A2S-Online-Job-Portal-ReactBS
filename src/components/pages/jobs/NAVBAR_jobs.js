@@ -1,12 +1,12 @@
-import '../css/navbar.css'
+import '../../css/navbar.css'
 import {Link} from 'react-router-dom';
-import Logo from '../images/logo.png'
+import Logo from '../../images/logo.png'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import { useState } from 'react';
 
 
 
-const NavbarMain = () => {
+const NavbarJobs = () => {
     const [toggle, setToggle] = useState('');
 
     const toggleClick = () => {
@@ -21,26 +21,19 @@ const NavbarMain = () => {
             <div className="pages">
                 <ul>
                     <li>
-                        <Link to= '/'>Home</Link>
-                    </li>
-                    <li>
                         <Link to='/search'>Search</Link>
                     </li>
                     <li>
-                        <Link to='/about'>About</Link>
-                    </li>
-                    <li>
-                        <div className='dropdown'>
-                            <Link to='/login'  id="dropdownSearch">Login</Link>
-                            <div className='dropdown-content'>
-                                <Link to ='/'>Job Seekers</Link>
-                                <Link to ='/'>Employer</Link>
-                            </div>
-                        </div>
-                        
+                        <Link to='/messages'>Messages</Link>
                     </li>
                     <li id="signupbtn">
-                        <Link to='/signup'>Signup</Link>
+                        <div className='dropdown'>
+                            <Link to='/signup' id="dropdownSearch1">Applicant</Link>
+                            <div className='dropdown-content'>
+                                <Link to ='/'>Profile</Link>
+                                <Link to ='/'>Logout</Link>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -48,27 +41,22 @@ const NavbarMain = () => {
                 <GiHamburgerMenu onClick={toggleClick}/>
                 <ul className='mobile-view'>
                     <li>
-                        <Link to= '/'>Home</Link>
-                    </li>
-                    <li>
                         <Link to='/search'>Search</Link>
                     </li>
                     <li>
-                        <Link to='/about'>About</Link>
+                        <Link to='/messages'>Messages</Link>
                     </li>
                     <li>
-                        <Link to='/login'>Login as Job Seekers</Link>
+                        <Link to='/'>Applicant Profile</Link>
                     </li>
                     <li>
-                        <Link to='/login'>Login as Employer</Link>
+                        <Link to='/'>Logout</Link>
                     </li>
-                    <li>
-                        <Link to='/signup'>Signup</Link>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
     );
 }
  
-export default NavbarMain;
+export default NavbarJobs;
