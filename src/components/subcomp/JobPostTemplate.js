@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/melvin.css';
-import '../css/main.css';
+import '../../css/melvin.css';
+import '../../css/main.css';
 
 const JobPostTemplate = (post) => {
   return (
