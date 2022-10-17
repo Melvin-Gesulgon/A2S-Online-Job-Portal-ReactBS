@@ -1,3 +1,6 @@
+
+import React from 'react';
+
 // import './App.css';
 import '/node_modules/bootstrap/dist/css/bootstrap.css'
 // import Navbar from './components/navbar';
@@ -11,9 +14,14 @@ import Login from './components/pages/login';
 import Signup from './components/pages/signup';
 import Footer from './components/subcom/FOOTER';
 
+
 function App() {
   
   return (
+
+    <div className="App">
+       
+
     <BrowserRouter>
     <div>
       <header>
@@ -30,6 +38,7 @@ function App() {
       <footer>
         <Footer></Footer>
       </footer>
+
     </div>
     </BrowserRouter>
     
