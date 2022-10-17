@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 72px;
+    background-color: #003865;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    color: #f2f2f2;
+}
+
+.navbar .pages ul{
+    padding-top: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+}
+
+.navbar .pages ul li {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.navbar a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.navbar .pages ul li a:hover{
+    color: #3CCF4E;
+}
+
+#signupbtn{
+    background-color: #EF5B0C;
+    padding: 0.3em 0.7em 0.3em 0.7em;
+    border-radius: 2em;
+}
+
+.navbar ul li:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.brand img{
+    height: 45px;
+    padding-right: 10px;
+}
+
+.togglemenu{
+    display: none;
+    cursor: pointer;
+    color: #f2f2f2;
+    font-size: 30px;
+    padding-right: 8px;
+    margin: auto 0;
+    padding-bottom: 8px;
+}
+
+.mobile-view {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    height: calc(50vh - 72px);
+    width: 100%;
+    background-color: #003865;
+    z-index: 100000;
+    align-items: flex-start;
+}
+
+.open .mobile-view {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+}
+
+#dropdownSearch{
+    border: none;
+    background-color: #003865;
+}
+#dropdownSearch1{
+    border: none;
+}
+
+#dropdownSearch:hover{
+    background-color: #003865;
+    filter: brightness(100%);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f2f2f2}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+    .dropdown:hover .dropbtn {
+    background-color: #3CCF4E;
+  }
+
+
+@media only screen and (max-width: 1000px){
+    .navbar .pages{
+        display: none;
+    }
+    .togglemenu{
+        display: block;
+    }
+    /* .mobile-view{
+        display: block;
+    } */
+
+}
